@@ -6,36 +6,36 @@ This module demonstrates how to INPUT from the CONSOLE:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Will Steuerwald.
+"""  # : 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-# TODO: 2.  Read and run this program.  Then do the following problems,
+# Done: 2.  Read and run this program.  Then do the following problems,
 #   putting your answers RIGHT HERE IN THIS DOCUMENT.
 #
 #   1. Write a line of code that would input an INTEGER from the
 #      console, storing the integer in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = 4
 #
 #   2. Write a line of code that would input an FLOAT from the console,
 #      storing the float in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = 4.0
 #
 #   3. Write a line of code that would input an STRING from the console,
 #      storing the string in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = 'four'
 #
 #   4. What happens if you (the user) enter something OTHER than a
 #      single integer (e.g., you enter
-#        five
+#        five returns five
 #      or
-#        4.5
+#        4.5 returns 4.5
 #      or
-#        1 1 1
+#        1 1 1 returns 1 1 1
 #      or
 #        nothing at all (just press the Enter key)
 #      -- try them!) when running the   input_an_integer   example?
-#      Put your answer here:
+#      Put your answer here: it leaves it blank
 #
 #   After you have PUT YOUR ANSWERS IN THIS COMMENT as described above,
 #     a. Find someone who has had HER answer checked.
@@ -63,7 +63,7 @@ def input_a_string():
     print('--------------------------------------------------')
 
     #----------- Using the   INPUT  function ----------------------------------
-    name = input('Enter your name: ')
+    name = input('Enter your name: Will')
     #--------------------------------------------------------------------------
 
     print('Hi, ' + name + '!  ', name, '!.  ', name)
@@ -80,7 +80,7 @@ def input_an_integer():
     print('--------------------------------------------------')
 
     #----------- Using the   INPUT  and   INT   functions ---------------------
-    age = int(input('How old are you? '))
+    age = int(input('How old are you? 14'))
     #--------------------------------------------------------------------------
     print('That is ' + str(age * 12) + ' months!')
     if age >= 18:
@@ -99,7 +99,7 @@ def input_a_float():
     print('--------------------------------------------------')
 
     #----------- Using the   INPUT  and   FLOAT   functions -------------------
-    money = float(input('How much money do you have? '))
+    money = float(input('How much money do you have? 4.4'))
     #--------------------------------------------------------------------------
 
     potatoes_today = round((money / 6.46) * 10)
